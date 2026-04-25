@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mobile-ai-image-app — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+  h1 { color: #111; }
+  h2 { color: #222; margin-top: 2em; }
+  .date { color: #666; font-size: 0.9em; }
+  ul { padding-left: 1.4em; }
+  code { font-family: 'SFMono-Regular', Menlo, monospace; font-size: 0.92em; background: #f4f4f4; padding: 1px 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>mobile-ai-image-app — Privacy Policy</h1>
+<p class="date">Last updated: April 25, 2026</p>
+
+<h2>Summary</h2>
+<p>This is a local-first Android application. Your photos are processed on your device. We do not run any servers. We do not collect, store, or transmit personal information.</p>
+
+<h2>Data We Collect</h2>
+<p><strong>None.</strong> The app does not collect any personal data, prompts, generated images, usage analytics, or telemetry. We have no servers and no analytics provider.</p>
+
+<h2>Data Stored on Your Device</h2>
+<p>The app stores the following locally on your device only:</p>
+<ul>
+  <li>Generated images (in your device's gallery, if you choose to save them)</li>
+  <li>Settings (template preferences, quality mode, Wi-Fi-only download toggle)</li>
+  <li>Cached AI model files (downloaded once, reused for all subsequent generations)</li>
+</ul>
+<p>This data never leaves your device unless you explicitly choose to share an image using your phone's standard sharing features.</p>
+
+<h2>Network Activity</h2>
+<p>The app makes the following outbound network connections, all over HTTPS:</p>
+<ul>
+  <li><strong>Model downloads from Hugging Face</strong> (<a href="https://huggingface.co">huggingface.co</a>) when you first use a feature that needs an AI model. Your device fetches the file directly from Hugging Face. We do not sit between your device and Hugging Face. The request contains no user identifier, no image, and no prompt.</li>
+  <li><strong>Crash reports through Google Play.</strong> If the app crashes, Google Play may send us a stack trace and your Android version. Stack traces do not contain images, prompts, or any content you created in the app. This is handled by Google under their own <a href="https://policies.google.com/privacy">Privacy Policy</a>.</li>
+</ul>
+<p>That is the complete list. There are no other outbound connections.</p>
+
+<h2>Purposes and Legal Basis</h2>
+<p>The app processes the data described above (model file URLs you fetch, crash diagnostics through Google Play) for two purposes only: (1) to deliver the app's functionality on your device, and (2) to receive aggregate stability information through Google Play's standard developer tools so we can fix crashes. Neither purpose involves processing of personal data by us. Where any indirect processing might be argued to fall under the GDPR, the legal basis would be Article 6(1)(b) (necessary for the performance of the contract you implicitly enter when downloading and running the app).</p>
+
+<h2>Sale of Personal Information</h2>
+<p>We do not sell or share personal information for cross-context behavioural advertising. We have no data to sell. There is nothing for you to opt out of.</p>
+
+<h2>What We Do NOT Do</h2>
+<ul>
+  <li>We do not upload your photos. Input photos and generated outputs stay on your device.</li>
+  <li>We do not log or transmit your prompts.</li>
+  <li>We do not require an account.</li>
+  <li>We do not collect your name, email, phone number, advertising ID, installation ID, or device fingerprint.</li>
+  <li>We do not request location, contacts, calendar, microphone, or SMS permissions.</li>
+  <li>We do not run in the background to track usage.</li>
+  <li>We do not retrain or "improve" any AI model based on your usage.</li>
+</ul>
+
+<h2>How AI Processing Works</h2>
+<p>All AI image processing happens on your device. Your photos are read by the app from your photo library when you select them, processed in memory by the AI models running locally on your phone, and saved back to your device's gallery if you choose to save the result. None of this involves any network connection.</p>
+
+<h2>Children's Privacy</h2>
+<p>The app is not directed to children under 13 (or under 16 in jurisdictions where that is the applicable age under the GDPR). We do not knowingly collect any personal data from children. The app's safety policy blocks generation involving minors at the prompt and template levels, regardless of the user's age.</p>
+
+<h2>Your Rights</h2>
+<p>Because we do not collect personal data, most rights frameworks (GDPR, CCPA) do not generate a meaningful action for us — we have nothing to delete, correct, or export on your behalf.</p>
+<p>You can:</p>
+<ul>
+  <li>Stop using the app and uninstall it to remove all on-device data.</li>
+  <li>Manage Google Play data (including crash report retention) through your Google account at <a href="https://myaccount.google.com">myaccount.google.com</a>.</li>
+  <li>Contact us at the email below if you have a question about how the app works.</li>
+  <li>Lodge a complaint with your local data protection supervisory authority if you believe your rights have been affected. Within the EU, the supervisory authority is determined by your country of residence; a list is at <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en">edpb.europa.eu/about-edpb/about-edpb/members_en</a>.</li>
+</ul>
+
+<h2>Third-Party Services</h2>
+<ul>
+  <li><strong>Google Play services</strong> (Play Store, Play Billing, Play Console crash reporting) — Google's own privacy policy applies: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li><strong>Hugging Face</strong> (model file hosting) — your device contacts Hugging Face directly when downloading models. Hugging Face's privacy policy applies to that contact: <a href="https://huggingface.co/privacy">huggingface.co/privacy</a></li>
+</ul>
+<p>No other third-party services are used. The app bundles open-source software libraries; a list is available inside the app under Settings → Open source notices.</p>
+
+<h2>International Users</h2>
+<p>The app is available worldwide where Google Play distributes it. Because we collect no user data, no cross-border data transfer happens at our level. Network connections from your device to Hugging Face follow Hugging Face's data-handling practices.</p>
+
+<h2>Data Deletion</h2>
+<p>Uninstalling the app removes all locally stored data including any cached AI models. There is no server-side data to delete because we don't collect any.</p>
+
+<h2>Security</h2>
+<p>Because we do not collect or store your data, the typical security risks (data breach, account compromise) do not apply to us. The app processes your photos using standard Android sandboxing — only the app can access the data you give it, and only while you are using it.</p>
+
+<h2>Changes to This Policy</h2>
+<p>If we update this policy, the new version will be published at this URL with an updated date at the top. The full revision history is publicly visible at <a href="https://github.com/virtaava/mobile-ai-image-app/commits/main/docs/play-store/privacy_policy.html">github.com/virtaava/mobile-ai-image-app/commits/main/docs/play-store/privacy_policy.html</a>.</p>
+
+<h2>Contact</h2>
+<p>For questions about this privacy policy, contact: <a href="mailto:virtaava@gmail.com">virtaava@gmail.com</a></p>
+
+</body>
+</html>
